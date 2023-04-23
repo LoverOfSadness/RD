@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+
+</head>
+<body>
+<div class="container text-white text-center">
+
+
+    <div class="card bg-dark p-5 mt-4">
+
+        <div class="card-header row">
+            <div class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#deepali">
+                <!--<div class="btn btn-outline-primary" onclick="anj()">-->
+
+                Raju
+
+            </div>
+        </div>
+
+        <div class="card-body">
+
+
+            <div id="deepali" class="collapse">
+
+
+                qwertyuiopoiuytrewqwertyuiopokjhgfdsdfghjklknbvcvbhjkiuytrertyuiukjhgfdfgthyuiuytrewswertyuhgfdertyuiytresertyuytrewefghqwertyuiopoiuytrewqwertyuiopokjhgfdsdfghjklknbvcvbhjkiuytrertyuiukjhgfdfgthyuiuytrewswertyuhgfdertyuiytresertyuytrewefgh
+
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+<script>
+    var depplai = document.getElementById("deepali");
+
+    var t = false
+
+    function anj() {
+
+        if (t) {
+            depplai.classList.remove("collapse")
+
+
+            t = !t
+        } else {
+            depplai.classList.add("collapse")
+            t = !t
+
+        }
+    }
+</script>
+</body>
+</html>
